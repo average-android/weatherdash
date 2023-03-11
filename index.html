@@ -23,12 +23,19 @@
 
                 <div>
                     <form id="searchCity">
-                        <h3></h3>
+                        <h2></h2>
+                        <input id="city" class="form-input"/>
+                        <button class="btn btn-primary" type="submit">Search</button>
                     </form>
                 </div>
 
                 <div>
-
+                    <div id="current-forecast" class="row border selected-city">
+                        <div class="col-10">
+                            <h3 id="searched-city"></h3>
+                            <div id="current" class="list-group"></div>
+                        </div>
+                    </div>
                 </div>
 
 
